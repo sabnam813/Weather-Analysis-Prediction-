@@ -21,25 +21,25 @@ Bootstrap-based responsive UI
 Simple form to input weather conditions and get rainfall predictions
 
 ## Installation & Usage
-Clone repository & enter folder
+# Clone repository & enter folder
 git clone https://github.com/sabnam813/Weather-Analysis-Prediction-.git
 cd weather_app
 
-Create & activate virtual environment
+# Create & activate virtual environment
 python -m venv venv
 venv\Scripts\activate      # Windows
 source venv/bin/activate   # Linux/Mac
 
-Install dependencies
+# Install dependencies
 pip install -r requirements.txt
 
-Train model
+# Train model
 python train_model.py
 
-Run Flask app
+# Run Flask app
 python app.py
 
-Open browser
+# Open browser
 http://127.0.0.1:5000
 
 ## License
